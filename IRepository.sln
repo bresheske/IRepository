@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository\IRepository.csproj", "{38031CBD-9801-4451-8DF6-C9E6301C3AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository.Web", "IRepository.Web\IRepository.Web.csproj", "{A4466E5A-D109-42CB-B081-0A664B0D6542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38031CBD-9801-4451-8DF6-C9E6301C3AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38031CBD-9801-4451-8DF6-C9E6301C3AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38031CBD-9801-4451-8DF6-C9E6301C3AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38031CBD-9801-4451-8DF6-C9E6301C3AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4466E5A-D109-42CB-B081-0A664B0D6542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4466E5A-D109-42CB-B081-0A664B0D6542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4466E5A-D109-42CB-B081-0A664B0D6542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4466E5A-D109-42CB-B081-0A664B0D6542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
