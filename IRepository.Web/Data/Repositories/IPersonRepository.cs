@@ -6,7 +6,5 @@ using System.Web;
 
 namespace IRepository.Web.Data.Repositories
 {
-    public interface IPersonRepository : IRepository<Person>
-    {
-    }
+    public interface IPersonRepository : IRepository<Person> { }
 }

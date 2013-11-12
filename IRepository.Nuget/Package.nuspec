@@ -15,7 +15,7 @@
       Just another implementation of the C# generic repository pattern.
     </summary>
     <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/IRepository.Nuget</projectUrl>
+    <projectUrl>http://resheske.net/projects/irepository</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
