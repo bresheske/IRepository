@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 
 namespace IRepository.IOC
 {
-    public class Repository<T, C> : IRepository<T>
+    /// <summary>
+    /// Implementation of IRepository<T>
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <typeparam name="C"></typeparam>
+    public abstract class Repository<T, C> : IRepository<T>
         where T : BaseEntity
         where C : DbContext
     {

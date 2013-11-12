@@ -9,6 +9,9 @@ namespace IRepository.IOC
 {
     public class BaseEntity
     {
+        /// <summary>
+        /// Just the Primary Key of the Entity.
+        /// </summary>
         [Key]
         public int Id { get; set; }
     }
