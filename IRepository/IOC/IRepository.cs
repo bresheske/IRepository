@@ -21,6 +21,12 @@ namespace IRepository.IOC
         void Save();
 
         /// <summary>
+        /// Returns all entities in the set.
+        /// </summary>
+        /// <returns></returns>
+        IQueryable<T> All();
+
+        /// <summary>
         /// Adds an item to the entity set.
         /// </summary>
         /// <param name="item"></param>

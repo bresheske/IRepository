@@ -28,6 +28,11 @@ namespace IRepository.IOC
             context.SaveChanges();
         }
 
+        public IQueryable<T> All()
+        {
+            return context.Set<T>().AsQueryable();
+        }
+
         public void Add(T item)
         {
             context.Set<T>().Add(item);

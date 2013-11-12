@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IRepositoryIOC</id>
-    <version>1.0.1</version>
+    <version>1.0.6</version>
     <title>IRepository</title>
     <authors>bresheske</authors>
     <owners>bresheske</owners>
