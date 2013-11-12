@@ -4,6 +4,7 @@ using Unity.Mvc4;
 using IRepository.IOC;
 using IRepository.Web.Data;
 using IRepository.Web.Data.Repositories;
+using System.Data.Entity;
 
 namespace IRepository.Web
 {
@@ -25,6 +26,7 @@ namespace IRepository.Web
 
         public static void RegisterTypes(IUnityContainer container)
         {
+            container.RegisterType<DbContext, DatabaseContext>();
             container.RegisterType<IPersonRepository, PersonRepository>();
         }
     }
