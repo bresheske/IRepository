@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -54,12 +55,12 @@ namespace IRepository.IOC
             return context.Set<T>().Any();
         }
 
-        public bool Any(System.Linq.Expressions.Expression<Func<T, bool>> where)
+        public bool Any(Expression<Func<T, bool>> where)
         {
             return context.Set<T>().Any(where);
         }
 
-        public IQueryable<T> Where(System.Linq.Expressions.Expression<Func<T, bool>> where)
+        public IQueryable<T> Where(Expression<Func<T, bool>> where)
         {
             return context.Set<T>().Where(where);
         }
@@ -74,9 +75,14 @@ namespace IRepository.IOC
             return context.Set<T>().Count();
         }
 
-        public int Count(System.Linq.Expressions.Expression<Func<T, bool>> where)
+        public int Count(Expression<Func<T, bool>> where)
         {
             return context.Set<T>().Count(where);
+        }
+
+        public T Find(Expression<Func<T, bool>> where)
+        {
+            return context.Set<T>().FirstOrDefault(where);
         }
     }
 }

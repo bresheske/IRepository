@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IRepositoryIOC</id>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
     <title>IRepository</title>
     <authors>bresheske</authors>
     <owners>bresheske</owners>
@@ -10,6 +10,7 @@
       Just another implementation of the C# generic repository pattern.
     </description>
     <releaseNotes>
+      - 1.0.8: Added Find.
     </releaseNotes>
     <summary>
       Just another implementation of the C# generic repository pattern.

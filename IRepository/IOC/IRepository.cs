@@ -82,6 +82,12 @@ namespace IRepository.IOC
         /// <param name="where"></param>
         /// <returns></returns>
         int Count(Expression<Func<T, bool>> where);
+        /// <summary>
+        /// FirstOrDefault Implementation.
+        /// </summary>
+        /// <param name="where"></param>
+        /// <returns></returns>
+        T Find(Expression<Func<T, bool>> where);
     }
 
 }
