@@ -3,4 +3,5 @@ IRepository
 
 Another C# implementation for an IOC repository.
 
-Please visit http://www.resheske.net/projects/irepository for docs and examples.
+### I do not recommend using this.
+The 'repository' pattern I feel is overly complicated and doesn't provide an equal amount of value.  Interface your data providers but keep them simple.
